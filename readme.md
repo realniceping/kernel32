@@ -1,0 +1,1 @@
+try to read process memory with kernel32

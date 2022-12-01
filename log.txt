@@ -1,0 +1,5 @@
+processes readed 256
+lp minimum application address : 0x10000
+page size: 4096
+alocation base : 0
+Region size: 473890816

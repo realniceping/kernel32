@@ -1,0 +1,15 @@
+D:\kernel32\bin\Debug\net7.0\kernel32.exe
+D:\kernel32\bin\Debug\net7.0\kernel32.deps.json
+D:\kernel32\bin\Debug\net7.0\kernel32.runtimeconfig.json
+D:\kernel32\bin\Debug\net7.0\kernel32.dll
+D:\kernel32\bin\Debug\net7.0\kernel32.pdb
+D:\kernel32\obj\Debug\net7.0\kernel32.csproj.AssemblyReference.cache
+D:\kernel32\obj\Debug\net7.0\kernel32.GeneratedMSBuildEditorConfig.editorconfig
+D:\kernel32\obj\Debug\net7.0\kernel32.AssemblyInfoInputs.cache
+D:\kernel32\obj\Debug\net7.0\kernel32.AssemblyInfo.cs
+D:\kernel32\obj\Debug\net7.0\kernel32.csproj.CoreCompileInputs.cache
+D:\kernel32\obj\Debug\net7.0\kernel32.dll
+D:\kernel32\obj\Debug\net7.0\refint\kernel32.dll
+D:\kernel32\obj\Debug\net7.0\kernel32.pdb
+D:\kernel32\obj\Debug\net7.0\kernel32.genruntimeconfig.cache
+D:\kernel32\obj\Debug\net7.0\ref\kernel32.dll
