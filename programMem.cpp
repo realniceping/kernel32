@@ -97,10 +97,10 @@ int main(){
         
         int buffer_size = sys_info.dwPageSize;
         buffer = new byte[buffer_size];
-        
+        PVOID read_address = PVOID((PINT32)address + (o * sys_info.dwPageSize));
         // address = (PVOID)((int*)address + ((int*)(o * sys_info.dwPageSize)));
 
-        BOOL state = ReadProcessMemory(descript_VM_READ, address, buffer, buffer_size, readed_byte);
+        BOOL state = ReadProcessMemory(descript_VM_READ, read_address, buffer, buffer_size, readed_byte);
 
 
         // std::cout << basicMemInfo.AllocationBase << std::endl;
@@ -124,7 +124,7 @@ int main(){
         for(int i = 0; i < buffer_size; i++){
                 
             //std::cout << (int*)address + i << " : " << buffer[i] << std::endl;
-            LOG((int*)address + (i/4));
+            LOG((char*)address + i);
             LOG(" : ");
             LOG((char)(buffer[i]));
             NEWLINE;
