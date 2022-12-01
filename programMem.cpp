@@ -86,6 +86,13 @@ int main(){
     SIZE_T size = VirtualQueryEx(descript_QUERY_INFORMATION, sys_info.lpMinimumApplicationAddress, &basicMemInfo, sizeof(MEMORY_BASIC_INFORMATION));
     int pages = basicMemInfo.RegionSize / sys_info.dwPageSize;
     PVOID address = basicMemInfo.BaseAddress;
+
+    //summary 
+    //in address variable we have beggingnig process address 
+    //in pages variable we have number of page that we need to read
+    //each page (in my case) == 4096 byte
+    //last problem - how to increment funcking PVOID 
+
     for(int o = 0; o < pages; o++){
         
         int buffer_size = sys_info.dwPageSize;
